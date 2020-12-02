@@ -14,6 +14,7 @@ def index():
     return render_template('index.html', business_news=business_news, 
     entertainment=entertainment,general=general,sports=sports)
 
+
 @main.route('/sources/<id>')
 def articles(id):
     '''
