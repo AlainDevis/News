@@ -3,6 +3,7 @@ from  ..request import get_sources,get_articles
 from ..models import Source, Articles
 from . import main
 
+
 @main.route('/')
 def index():
     business_news = get_sources('business')
